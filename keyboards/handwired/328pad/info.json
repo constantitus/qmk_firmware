@@ -1,0 +1,32 @@
+{
+    "keyboard_name": "328pad",
+    "manufacturer": "Constantitus",
+    "url": "",
+    "maintainer": "qmk",
+    "usb": {
+        "vid": "0x444D",
+        "pid": "0x3536",
+        "device_version": "0.0.1"
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "atmega328p",
+    "bootloader": "usbasploader",
+    "layouts": {
+        "LAYOUT_pad": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 0, "y": 1},
+                {"matrix": [0, 2], "x": 0, "y": 2},
+                {"matrix": [0, 3], "x": 0, "y": 3},
+                {"matrix": [0, 4], "x": 0, "y": 4},
+                {"matrix": [0, 5], "x": 0, "y": 5},
+                {"matrix": [0, 6], "x": 0, "y": 6},
+                {"matrix": [0, 7], "x": 0, "y": 7},
+                {"matrix": [0, 8], "x": 0, "y": 8},
+                {"matrix": [0, 9], "x": 0, "y": 9},
+                {"matrix": [0, 10], "x": 0, "y": 10},
+                {"matrix": [0, 11], "x": 0, "y": 11},
+            ]
+        }
+    }
+}
