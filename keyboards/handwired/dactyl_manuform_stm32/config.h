@@ -20,8 +20,10 @@
 #define PERMISSIVE_HOLD
 
 // #define MASTER_RIGHT
-#define SPLIT_USB_DETECT
-#define EE_HANDS
+// #define SPLIT_USB_DETECT
+// #define EE_HANDS
+
+#define SPLIT_HAND_PIN B9
 
 /*  For STM32 MCUs several GPIO configuration options, including the ability
     for TX to RX pin swapping, can be changed as well. */
@@ -47,6 +49,6 @@
 	important for the "okeney" testing firmware.  In a real firmware you may be
 	able to use these features if you keep the debugging console disabled. */
 // #define NO_ACTION_LAYER
-#define NO_ACTION_TAPPING
+// #define NO_ACTION_TAPPING
 
 #define FORCE_KNRO
